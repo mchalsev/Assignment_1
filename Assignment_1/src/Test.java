@@ -22,7 +22,7 @@ public class Test {
 		long nanoseconds5 = test.testConcatenate("C:\\Users\\MariaChalsev\\Desktop\\Java\\Assignment1\\Testdata\\10M.txt", 10);
 
 		//print out results of testConcatenate for each file&times combination, converted into seconds.  
-		System.out.println("\nResults of concatention using StringBuilder: \n" 
+		System.out.println("\nResults of using standard concatenation method: \n" 
 		+ "1k concatenation 100000 times took:\t " + nanoseconds1 / (double)1000000000 + " seconds\n" 
 		+ "10k concatenation 10000 times took:\t " + nanoseconds2 / (double)1000000000 + " seconds\n" 
 		+ "100k concatenation 1000 times took:\t " + nanoseconds3 / (double)1000000000 +  " seconds\n" 
